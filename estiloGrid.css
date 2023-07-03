@@ -9,3 +9,54 @@ body {
     /* background-color: #ea0808; */
     /* background-color: #ffffff; */
 }
+
+.grid-contenedor {
+    display: grid;
+    column-gap: 4rem;
+    grid-template-columns: 30% 65%;
+}
+
+.gridFilaSuperior {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 20rem;
+}
+
+.gridFilaInferior {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 20rem;
+    margin-top: 4rem;
+}
+
+.gridCuadro1 {
+    background-color: #ea0808;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    height: 90%;
+}
+
+.gridCuadro2 {
+    background-color: #ea0808;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    height: 90%;
+}
+
+.gridCuadro3 {
+    background-color: #ea0808;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    height: 90%;
+}
+
+.gridCuadro4 {
+    background-color: #ea0808;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 90%;
+}
